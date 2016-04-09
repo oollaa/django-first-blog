@@ -8,4 +8,6 @@ urlpatterns = [
     #daszek = ma się zaczynać od tego, co następne
     #$ ma sie kończyć
     #czyli ma być pyste, (zaczyna się od końca, jednocześnie zaczyn się i kończy)
+
+url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
 ]
